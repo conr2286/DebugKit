@@ -11,8 +11,12 @@
 
 #include "DebugKitTraceFlags.h"
 
+#ifdef DEBUG
+
 //Define the debug bit field variables
 struct DK_TRACE_FLAGS dkTraceBits;
+
+#endif
 
 
 

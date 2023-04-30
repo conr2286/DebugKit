@@ -13,6 +13,6 @@ struct DK_TRACE_FLAGS {
 	unsigned zot:1;
 };
 
-//Define macro to output trace messages to console
+//Define project-dependent macro to output trace messages to console
 #define DK_PRINTF(...) printf(__VAR_ARGS__);
 

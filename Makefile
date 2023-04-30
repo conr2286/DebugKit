@@ -1,4 +1,4 @@
-CFLAGS= -std=c17
+CFLAGS= -std=c17 
 PGM = test
 OBJS= DebugKit.o
 
